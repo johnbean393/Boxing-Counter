@@ -7,19 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		201274942C227438009EF0DE /* ScoreboardTopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201274932C227438009EF0DE /* ScoreboardTopBarView.swift */; };
+		201274962C2277BA009EF0DE /* ScoreboardBoxersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201274952C2277BA009EF0DE /* ScoreboardBoxersView.swift */; };
+		201274982C2296E1009EF0DE /* ScoreboardBottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201274972C2296E1009EF0DE /* ScoreboardBottomBarView.swift */; };
+		2012749A2C22972C009EF0DE /* ScoreboardTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201274992C22972C009EF0DE /* ScoreboardTimerView.swift */; };
 		2041219A2C2015E40044B00B /* Boxing_CounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204121992C2015E40044B00B /* Boxing_CounterApp.swift */; };
 		2041219C2C2015E40044B00B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2041219B2C2015E40044B00B /* ContentView.swift */; };
 		2041219E2C2015EA0044B00B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2041219D2C2015EA0044B00B /* Assets.xcassets */; };
 		204121A12C2015EA0044B00B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204121A02C2015EA0044B00B /* Preview Assets.xcassets */; };
+		204121AA2C20160A0044B00B /* ExtensionKit in Frameworks */ = {isa = PBXBuildFile; productRef = 204121A92C20160A0044B00B /* ExtensionKit */; };
+		204121AC2C2017BF0044B00B /* Boxer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204121AB2C2017BF0044B00B /* Boxer.swift */; };
+		204121AE2C2018A30044B00B /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204121AD2C2018A30044B00B /* Match.swift */; };
+		204121B22C201B500044B00B /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204121B12C201B500044B00B /* Account.swift */; };
+		204121B72C201EA60044B00B /* AccountData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204121B62C201EA60044B00B /* AccountData.swift */; };
+		204121BC2C2033E00044B00B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204121BB2C2033E00044B00B /* LoginView.swift */; };
+		204121BE2C20343D0044B00B /* SharedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204121BD2C20343D0044B00B /* SharedViewController.swift */; };
+		204121C62C203A680044B00B /* LoginFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204121C52C203A680044B00B /* LoginFieldStyle.swift */; };
+		204121C92C203BF40044B00B /* BorderedProminentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204121C82C203BF40044B00B /* BorderedProminentButton.swift */; };
+		204121CC2C203FA10044B00B /* Extension+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204121CB2C203FA10044B00B /* Extension+Color.swift */; };
+		204121CE2C2045FB0044B00B /* NewAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204121CD2C2045FB0044B00B /* NewAccountView.swift */; };
+		204121D02C204B020044B00B /* MatchManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204121CF2C204B020044B00B /* MatchManagerView.swift */; };
+		204121D22C204B100044B00B /* MatchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204121D12C204B100044B00B /* MatchData.swift */; };
+		204121DA2C204D7D0044B00B /* BoxerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204121D92C204D7D0044B00B /* BoxerData.swift */; };
+		204121DC2C204F9C0044B00B /* BoxerManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204121DB2C204F9C0044B00B /* BoxerManagerView.swift */; };
+		204121DF2C204FB30044B00B /* AccountManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204121DE2C204FB30044B00B /* AccountManagerView.swift */; };
+		204121E12C2051F80044B00B /* OpenWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204121E02C2051F80044B00B /* OpenWindow.swift */; };
+		204121E42C2053D40044B00B /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204121E32C2053D40044B00B /* LockView.swift */; };
+		204121E62C21001F0044B00B /* MatchEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204121E52C21001F0044B00B /* MatchEditorView.swift */; };
+		204121EA2C210DDA0044B00B /* AccountEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204121E92C210DDA0044B00B /* AccountEditorView.swift */; };
+		204121EC2C2124830044B00B /* AccountEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204121EB2C2124830044B00B /* AccountEditorViewModel.swift */; };
+		20C0D9492C21339C0047FBE0 /* NewBoxerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C0D9482C21339C0047FBE0 /* NewBoxerView.swift */; };
+		20C0D94B2C2145610047FBE0 /* BoxerEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C0D94A2C2145610047FBE0 /* BoxerEditorView.swift */; };
+		20C0D94D2C21464F0047FBE0 /* BoxerEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C0D94C2C21464F0047FBE0 /* BoxerEditorViewModel.swift */; };
+		20C0D94F2C2152800047FBE0 /* NewMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C0D94E2C2152800047FBE0 /* NewMatchView.swift */; };
+		20C0D9512C2160E60047FBE0 /* MatchEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C0D9502C2160E60047FBE0 /* MatchEditorViewModel.swift */; };
+		20C0D9532C2164D10047FBE0 /* ScoreboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C0D9522C2164D10047FBE0 /* ScoreboardViewController.swift */; };
+		20C4E1C02C225340004D06E7 /* ScoreboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C4E1BF2C225340004D06E7 /* ScoreboardView.swift */; };
+		20C4E1C22C227183004D06E7 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C4E1C12C227183004D06E7 /* TimerViewController.swift */; };
+		20C4E1C52C2271C4004D06E7 /* Parallelogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C4E1C32C2271C4004D06E7 /* Parallelogram.swift */; };
+		20C4E1C62C2271C4004D06E7 /* Trapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C4E1C42C2271C4004D06E7 /* Trapezoid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		201274932C227438009EF0DE /* ScoreboardTopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardTopBarView.swift; sourceTree = "<group>"; };
+		201274952C2277BA009EF0DE /* ScoreboardBoxersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardBoxersView.swift; sourceTree = "<group>"; };
+		201274972C2296E1009EF0DE /* ScoreboardBottomBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardBottomBarView.swift; sourceTree = "<group>"; };
+		201274992C22972C009EF0DE /* ScoreboardTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardTimerView.swift; sourceTree = "<group>"; };
 		204121962C2015E40044B00B /* Boxing Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boxing Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		204121992C2015E40044B00B /* Boxing_CounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boxing_CounterApp.swift; sourceTree = "<group>"; };
 		2041219B2C2015E40044B00B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2041219D2C2015EA0044B00B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		204121A02C2015EA0044B00B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		204121A22C2015EA0044B00B /* Boxing_Counter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Boxing_Counter.entitlements; sourceTree = "<group>"; };
+		204121AB2C2017BF0044B00B /* Boxer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boxer.swift; sourceTree = "<group>"; };
+		204121AD2C2018A30044B00B /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		204121B12C201B500044B00B /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		204121B62C201EA60044B00B /* AccountData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountData.swift; sourceTree = "<group>"; };
+		204121BB2C2033E00044B00B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		204121BD2C20343D0044B00B /* SharedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedViewController.swift; sourceTree = "<group>"; };
+		204121C52C203A680044B00B /* LoginFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFieldStyle.swift; sourceTree = "<group>"; };
+		204121C82C203BF40044B00B /* BorderedProminentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedProminentButton.swift; sourceTree = "<group>"; };
+		204121CB2C203FA10044B00B /* Extension+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Color.swift"; sourceTree = "<group>"; };
+		204121CD2C2045FB0044B00B /* NewAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountView.swift; sourceTree = "<group>"; };
+		204121CF2C204B020044B00B /* MatchManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchManagerView.swift; sourceTree = "<group>"; };
+		204121D12C204B100044B00B /* MatchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchData.swift; sourceTree = "<group>"; };
+		204121D92C204D7D0044B00B /* BoxerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxerData.swift; sourceTree = "<group>"; };
+		204121DB2C204F9C0044B00B /* BoxerManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxerManagerView.swift; sourceTree = "<group>"; };
+		204121DE2C204FB30044B00B /* AccountManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManagerView.swift; sourceTree = "<group>"; };
+		204121E02C2051F80044B00B /* OpenWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWindow.swift; sourceTree = "<group>"; };
+		204121E22C20525A0044B00B /* Boxing-Counter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Boxing-Counter-Info.plist"; sourceTree = SOURCE_ROOT; };
+		204121E32C2053D40044B00B /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
+		204121E52C21001F0044B00B /* MatchEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchEditorView.swift; sourceTree = "<group>"; };
+		204121E92C210DDA0044B00B /* AccountEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountEditorView.swift; sourceTree = "<group>"; };
+		204121EB2C2124830044B00B /* AccountEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountEditorViewModel.swift; sourceTree = "<group>"; };
+		20C0D9482C21339C0047FBE0 /* NewBoxerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBoxerView.swift; sourceTree = "<group>"; };
+		20C0D94A2C2145610047FBE0 /* BoxerEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxerEditorView.swift; sourceTree = "<group>"; };
+		20C0D94C2C21464F0047FBE0 /* BoxerEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxerEditorViewModel.swift; sourceTree = "<group>"; };
+		20C0D94E2C2152800047FBE0 /* NewMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMatchView.swift; sourceTree = "<group>"; };
+		20C0D9502C2160E60047FBE0 /* MatchEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchEditorViewModel.swift; sourceTree = "<group>"; };
+		20C0D9522C2164D10047FBE0 /* ScoreboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardViewController.swift; sourceTree = "<group>"; };
+		20C4E1BF2C225340004D06E7 /* ScoreboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardView.swift; sourceTree = "<group>"; };
+		20C4E1C12C227183004D06E7 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		20C4E1C32C2271C4004D06E7 /* Parallelogram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parallelogram.swift; sourceTree = "<group>"; };
+		20C4E1C42C2271C4004D06E7 /* Trapezoid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trapezoid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				204121AA2C20160A0044B00B /* ExtensionKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +123,11 @@
 		204121982C2015E40044B00B /* Boxing Counter */ = {
 			isa = PBXGroup;
 			children = (
+				204121E22C20525A0044B00B /* Boxing-Counter-Info.plist */,
 				204121992C2015E40044B00B /* Boxing_CounterApp.swift */,
-				2041219B2C2015E40044B00B /* ContentView.swift */,
+				204121B52C201CE10044B00B /* Views */,
+				204121D42C204B930044B00B /* Logic */,
+				204121CA2C203F920044B00B /* Extensions */,
 				2041219D2C2015EA0044B00B /* Assets.xcassets */,
 				204121A22C2015EA0044B00B /* Boxing_Counter.entitlements */,
 				2041219F2C2015EA0044B00B /* Preview Content */,
@@ -67,6 +141,158 @@
 				204121A02C2015EA0044B00B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		204121B32C201CD30044B00B /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				204121AD2C2018A30044B00B /* Match.swift */,
+				204121D12C204B100044B00B /* MatchData.swift */,
+			);
+			path = Match;
+			sourceTree = "<group>";
+		};
+		204121B42C201CDA0044B00B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				204121B82C201EAF0044B00B /* Account */,
+				204121D82C204D730044B00B /* Boxer */,
+				204121B32C201CD30044B00B /* Match */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		204121B52C201CE10044B00B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2041219B2C2015E40044B00B /* ContentView.swift */,
+				20C4E1BD2C2252FB004D06E7 /* Scoreboard */,
+				20C4E1BE2C225311004D06E7 /* Leaderboard */,
+				204121D72C204BD00044B00B /* Match Views */,
+				204121DD2C204FA20044B00B /* Boxer Views */,
+				204121D32C204B890044B00B /* Account Views */,
+				204121D62C204BB20044B00B /* Shared */,
+				204121C72C203A700044B00B /* View Styles */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		204121B82C201EAF0044B00B /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				204121B12C201B500044B00B /* Account.swift */,
+				204121B62C201EA60044B00B /* AccountData.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		204121C72C203A700044B00B /* View Styles */ = {
+			isa = PBXGroup;
+			children = (
+				204121C52C203A680044B00B /* LoginFieldStyle.swift */,
+			);
+			path = "View Styles";
+			sourceTree = "<group>";
+		};
+		204121CA2C203F920044B00B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				204121CB2C203FA10044B00B /* Extension+Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		204121D32C204B890044B00B /* Account Views */ = {
+			isa = PBXGroup;
+			children = (
+				204121BB2C2033E00044B00B /* LoginView.swift */,
+				204121CD2C2045FB0044B00B /* NewAccountView.swift */,
+				204121DE2C204FB30044B00B /* AccountManagerView.swift */,
+				204121E92C210DDA0044B00B /* AccountEditorView.swift */,
+			);
+			path = "Account Views";
+			sourceTree = "<group>";
+		};
+		204121D42C204B930044B00B /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				204121E02C2051F80044B00B /* OpenWindow.swift */,
+				204121D52C204BA20044B00B /* View Controllers */,
+				204121B42C201CDA0044B00B /* Model */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		204121D52C204BA20044B00B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				20C0D9522C2164D10047FBE0 /* ScoreboardViewController.swift */,
+				204121BD2C20343D0044B00B /* SharedViewController.swift */,
+				204121EB2C2124830044B00B /* AccountEditorViewModel.swift */,
+				20C0D94C2C21464F0047FBE0 /* BoxerEditorViewModel.swift */,
+				20C0D9502C2160E60047FBE0 /* MatchEditorViewModel.swift */,
+				20C4E1C12C227183004D06E7 /* TimerViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		204121D62C204BB20044B00B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				20C4E1C32C2271C4004D06E7 /* Parallelogram.swift */,
+				20C4E1C42C2271C4004D06E7 /* Trapezoid.swift */,
+				204121C82C203BF40044B00B /* BorderedProminentButton.swift */,
+				204121E32C2053D40044B00B /* LockView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		204121D72C204BD00044B00B /* Match Views */ = {
+			isa = PBXGroup;
+			children = (
+				20C0D94E2C2152800047FBE0 /* NewMatchView.swift */,
+				204121CF2C204B020044B00B /* MatchManagerView.swift */,
+				204121E52C21001F0044B00B /* MatchEditorView.swift */,
+			);
+			path = "Match Views";
+			sourceTree = "<group>";
+		};
+		204121D82C204D730044B00B /* Boxer */ = {
+			isa = PBXGroup;
+			children = (
+				204121AB2C2017BF0044B00B /* Boxer.swift */,
+				204121D92C204D7D0044B00B /* BoxerData.swift */,
+			);
+			path = Boxer;
+			sourceTree = "<group>";
+		};
+		204121DD2C204FA20044B00B /* Boxer Views */ = {
+			isa = PBXGroup;
+			children = (
+				20C0D9482C21339C0047FBE0 /* NewBoxerView.swift */,
+				204121DB2C204F9C0044B00B /* BoxerManagerView.swift */,
+				20C0D94A2C2145610047FBE0 /* BoxerEditorView.swift */,
+			);
+			path = "Boxer Views";
+			sourceTree = "<group>";
+		};
+		20C4E1BD2C2252FB004D06E7 /* Scoreboard */ = {
+			isa = PBXGroup;
+			children = (
+				20C4E1BF2C225340004D06E7 /* ScoreboardView.swift */,
+				201274932C227438009EF0DE /* ScoreboardTopBarView.swift */,
+				201274972C2296E1009EF0DE /* ScoreboardBottomBarView.swift */,
+				201274992C22972C009EF0DE /* ScoreboardTimerView.swift */,
+				201274952C2277BA009EF0DE /* ScoreboardBoxersView.swift */,
+			);
+			path = Scoreboard;
+			sourceTree = "<group>";
+		};
+		20C4E1BE2C225311004D06E7 /* Leaderboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Leaderboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +311,9 @@
 			dependencies = (
 			);
 			name = "Boxing Counter";
+			packageProductDependencies = (
+				204121A92C20160A0044B00B /* ExtensionKit */,
+			);
 			productName = "Boxing Counter";
 			productReference = 204121962C2015E40044B00B /* Boxing Counter.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +342,9 @@
 				Base,
 			);
 			mainGroup = 2041218D2C2015E40044B00B;
+			packageReferences = (
+				204121A82C20160A0044B00B /* XCRemoteSwiftPackageReference "ExtensionKit" */,
+			);
 			productRefGroup = 204121972C2015E40044B00B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +371,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C0D9532C2164D10047FBE0 /* ScoreboardViewController.swift in Sources */,
+				201274962C2277BA009EF0DE /* ScoreboardBoxersView.swift in Sources */,
+				20C4E1C52C2271C4004D06E7 /* Parallelogram.swift in Sources */,
+				204121D02C204B020044B00B /* MatchManagerView.swift in Sources */,
 				2041219C2C2015E40044B00B /* ContentView.swift in Sources */,
+				204121CE2C2045FB0044B00B /* NewAccountView.swift in Sources */,
+				204121B72C201EA60044B00B /* AccountData.swift in Sources */,
+				204121DA2C204D7D0044B00B /* BoxerData.swift in Sources */,
+				204121AC2C2017BF0044B00B /* Boxer.swift in Sources */,
+				204121E62C21001F0044B00B /* MatchEditorView.swift in Sources */,
 				2041219A2C2015E40044B00B /* Boxing_CounterApp.swift in Sources */,
+				20C0D94B2C2145610047FBE0 /* BoxerEditorView.swift in Sources */,
+				204121BE2C20343D0044B00B /* SharedViewController.swift in Sources */,
+				20C0D9492C21339C0047FBE0 /* NewBoxerView.swift in Sources */,
+				204121C62C203A680044B00B /* LoginFieldStyle.swift in Sources */,
+				204121D22C204B100044B00B /* MatchData.swift in Sources */,
+				2012749A2C22972C009EF0DE /* ScoreboardTimerView.swift in Sources */,
+				204121CC2C203FA10044B00B /* Extension+Color.swift in Sources */,
+				204121DF2C204FB30044B00B /* AccountManagerView.swift in Sources */,
+				20C0D94D2C21464F0047FBE0 /* BoxerEditorViewModel.swift in Sources */,
+				201274982C2296E1009EF0DE /* ScoreboardBottomBarView.swift in Sources */,
+				20C4E1C22C227183004D06E7 /* TimerViewController.swift in Sources */,
+				204121E42C2053D40044B00B /* LockView.swift in Sources */,
+				201274942C227438009EF0DE /* ScoreboardTopBarView.swift in Sources */,
+				204121AE2C2018A30044B00B /* Match.swift in Sources */,
+				20C0D94F2C2152800047FBE0 /* NewMatchView.swift in Sources */,
+				204121C92C203BF40044B00B /* BorderedProminentButton.swift in Sources */,
+				204121BC2C2033E00044B00B /* LoginView.swift in Sources */,
+				204121E12C2051F80044B00B /* OpenWindow.swift in Sources */,
+				204121DC2C204F9C0044B00B /* BoxerManagerView.swift in Sources */,
+				20C4E1C02C225340004D06E7 /* ScoreboardView.swift in Sources */,
+				204121EC2C2124830044B00B /* AccountEditorViewModel.swift in Sources */,
+				20C4E1C62C2271C4004D06E7 /* Trapezoid.swift in Sources */,
+				20C0D9512C2160E60047FBE0 /* MatchEditorViewModel.swift in Sources */,
+				204121B22C201B500044B00B /* Account.swift in Sources */,
+				204121EA2C210DDA0044B00B /* AccountEditorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +466,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -257,7 +523,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -279,11 +545,13 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Boxing-Counter-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pattonium.scripts.Boxing-Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,11 +574,13 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Boxing-Counter-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pattonium.scripts.Boxing-Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -341,6 +611,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		204121A82C20160A0044B00B /* XCRemoteSwiftPackageReference "ExtensionKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/johnbean393/ExtensionKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		204121A92C20160A0044B00B /* ExtensionKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 204121A82C20160A0044B00B /* XCRemoteSwiftPackageReference "ExtensionKit" */;
+			productName = ExtensionKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2041218E2C2015E40044B00B /* Project object */;
 }
